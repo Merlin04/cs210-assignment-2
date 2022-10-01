@@ -1,0 +1,5 @@
+(^ is exponentiation operator, not xor)
+a. min: 0, max: (2^43) - 1
+b. min: -(2^42), max: (2^42) - 1
+c. min: 0, max: (2^11) - 1
+d. min: -(2^10), max: (2^10) - 1

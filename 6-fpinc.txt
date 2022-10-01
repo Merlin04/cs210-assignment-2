@@ -1,0 +1,3 @@
+wasn't able to finish this, sorry - maybe partial credit?
+a. Largest: 0b01111111 next largest: 0b01111110 
+b. Smallest: 0b00000000 next smallest: 0b00000001
