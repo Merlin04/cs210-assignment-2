@@ -4,7 +4,7 @@
 
 V printb(U32 i){char b[33];int2str(i,b,2,0);printf("0b%s\n",b);}
 
-
+// The below code is taken from
 // https://github.com/mysql/mysql-server/blob/5.7/strings/int2str.c
 char _dig_vec_upper[] =
   "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -66,3 +66,5 @@ int2str(long int val, char *dst, int radix,
   while ((*dst++ = *p++) != 0) ;
   return dst-1;
 }
+
+// End mysql code
